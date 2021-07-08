@@ -1,13 +1,22 @@
 package org.employee;
 
 public class Witcher {
+
 	private void emp() {
 		
 System.out.println("yt");
 	}
-	public static void main(String[] args) {
-		Witcher ed = new Witcher();
-		ed.emp();
-	}
 
+	
+	private void password() {
+		
+		System.out.println("password");
+		}
+	
+	public static void main(String[] args) {
+		Witcher we = new Witcher();
+		we.password();
+		
+		we.emp();
+	}
 }
